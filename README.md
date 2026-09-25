@@ -1,21 +1,66 @@
 # 🎯 CodeAlpha: Hangman Game (Task 1)
 
-A classic command-line **Hangman Game** built using Python as part of my internship at **CodeAlpha**[span_0](start_span)[span_0](end_span).
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Internship](https://img.shields.io/badge/CodeAlpha-Python%20Internship-orange.svg)](https://www.codealpha.tech/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## 🚀 About the Project
-The program randomly selects a hidden word from a list, and the player must guess it one letter at a time within 6 incorrect attempts[span_1](start_span)[span_1](end_span)[span_2](start_span)[span_2](end_span).
+A robust command-line implementation of the classic **Hangman Game** developed in Python as Task 1 of my Python Programming Internship at **CodeAlpha**.
 
-## ✨ Features
-* 🎲 **Random Word Generation:** Powered by Python's built-in `random` module[span_3](start_span)[span_3](end_span).
-* 📊 **Real-Time Tracking:** Dynamically tracks guessed letters and wrong attempts[span_4](start_span)[span_4](end_span).
-* 💻 **Clean Interface:** Simple and easy-to-read text-based user interface.
+---
 
-## 🛠️ Tech Stack
-* **Language:** Python 3.x[span_5](start_span)[span_5](end_span)
-* **Environment:** Command Prompt, PowerShell, or Python IDLE[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span)
+## 📖 About the Project
+The Hangman Game is a timeless word-guessing challenge designed to test logic and vocabulary. In this console-based version, the program selects a hidden random word, and the player must uncover it one letter at a time. With a strict limit of **6 incorrect guesses**, every choice counts!
 
-## 🎮 How to Run the Game
-1. Open your terminal or Python IDLE in the project folder.
-2. Run the script using the command:
+---
+
+## 🧠 How the Game Logic Works
+1. **Random Selection:** The program uses Python's built-in `random` module to pick a secret word from a predefined list.
+2. **State Tracking:** It maintains the current state of guessed letters, tracks wrong attempts, and updates the masked word display dynamically.
+3. **Input Validation:** Handles user inputs securely, ensuring players are guided properly if they repeat a letter or make an invalid entry.
+4. **Win/Loss Conditions:** The game successfully concludes when either the full word is revealed (Win) or the 6-chance limit is exhausted (Loss).
+
+---
+
+## ✨ Key Features
+* 🎲 **Dynamic Word Generation:** Every session brings a fresh random word challenge.
+* 📊 **Real-Time Dashboards:** Clear display of guessed letters, wrong guess counts, and remaining chances.
+* 🛡️ **User-Friendly Error Handling:** Alerts players instantly to duplicate guesses or invalid inputs.
+* 💻 **Cross-Platform Compatibility:** Runs seamlessly on Windows Command Prompt, PowerShell, or Python IDLE.
+
+---
+
+## 🛠️ Tech Stack & Requirements
+* **Programming Language:** Python 3.x
+* **Built-in Modules:** `random`
+* **Development Environment:** Python IDLE / Command Line Interface (CLI)
+
+---
+
+## 🚀 Installation & How to Run
+Follow these quick steps to run the game locally on your machine:
+
+1. **Clone or Download** this repository:
    ```bash
-   python hangman.py
+   git clone [https://github.com/arijit2006aiml07/CodeAlpha_Hangman.git](https://github.com/arijit2006aiml07/CodeAlpha_Hangman.git)
+
+
+
+   ========================================
+             HANGMAN GAME             
+========================================
+Guess the word one letter at a time.
+You can make a maximum of 6 wrong guesses.
+
+Word: _ _ _ _ _ _ _
+Guessed letters: 
+Wrong guesses: 0
+Remaining chances: 6
+Enter a letter:
+
+👤Author & Connect
+Developer: Arijit
+Role: Python Programming Intern @ CodeAlpha
+
+
+
+   
