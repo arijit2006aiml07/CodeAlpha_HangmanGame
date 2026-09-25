@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![Internship](https://img.shields.io/badge/CodeAlpha-Python%20Internship-orange.svg)](https://www.codealpha.tech/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A robust command-line implementation of the classic **Hangman Game** developed in Python as Task 1 of my Python Programming Internship at **CodeAlpha**.
 
@@ -45,22 +44,12 @@ Follow these quick steps to run the game locally on your machine:
 
 
 
-   ========================================
-             HANGMAN GAME             
-========================================
-Guess the word one letter at a time.
-You can make a maximum of 6 wrong guesses.
-
-Word: _ _ _ _ _ _ _
-Guessed letters: 
-Wrong guesses: 0
-Remaining chances: 6
-Enter a letter:
-
-👤Author & Connect
-Developer: Arijit
-Role: Python Programming Intern @ CodeAlpha
 
 
 
-   
+
+👤 Author & Connect
+
+💻 Developer: Arijit
+
+💼 Role: Python Programming Intern @ CodeAlpha
